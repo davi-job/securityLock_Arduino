@@ -74,9 +74,9 @@ void loop()
 
         digitalWrite(leds[1], LOW);
 
-        //s.write(45);
+        s.write(45);
 
-        hit = 0;
+        //hit = 0;
       }
       else {
 
@@ -90,9 +90,9 @@ void loop()
 
         digitalWrite(leds[0], LOW);
 
-        //s.write(135);
+        s.write(135);
 
-        hit = 0;
+        //hit = 0;
       }
     }
 
